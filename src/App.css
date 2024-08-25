@@ -1,0 +1,34 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.scoreboard {
+  margin-top: 15px;
+}
+
+button {
+  margin-right: 15px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+
+.card {
+  width: 150px;
+  height: 220px;
+  background-color: gray;
+  border-radius: 5%;
+  padding: 5px;
+}
+
+.card img {
+  cursor: pointer;
+  max-width: 140px;
+}
