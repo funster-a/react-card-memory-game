@@ -34,7 +34,7 @@ function App() {
   const handleClick = (event) => {
     setClickedCardsArray([...clickedCardsArray, event.target.alt])
     if(clickedCardsArray.some(card => card === event.target.alt)) {
-      console.log('Данная карточка уже была выбрана, вы проиграли(')
+      alert('Данная карточка уже была выбрана, вы проиграли')
       setScore(0)
       loadPhotos()
     } else {
